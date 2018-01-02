@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    /*overflow: hidden;*/
+    background: #4953cc;
+}
+.table{
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.poke{
+    width: 90px;
+    height: 140px;
+    position: absolute;
+    left:0;
+    top:0;
+    opacity:0;
+
+}
